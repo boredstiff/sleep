@@ -1,0 +1,13 @@
+[package]
+name = "sleep"
+version = "0.1.0"
+authors = ["x <xx@xx.com>"]
+edition = "2018"
+
+[dependencies]
+vst = "0.0.1"
+rand = "0.3"
+
+[lib]
+name = "sleep"
+crate-type = ["cdylib"]
